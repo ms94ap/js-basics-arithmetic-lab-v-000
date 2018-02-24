@@ -10,4 +10,4 @@ You should NOT try to redefine any of the above variables.
 let newID = oldID + 1000000000
 const ageIsValid = Number.isNaN(currentAge)
 
-const randomNumber = Math.random()
+const randomNumber = Math.random(0, 20)
