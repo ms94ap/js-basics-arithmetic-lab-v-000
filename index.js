@@ -12,4 +12,4 @@ const ageIsValid = Number.isInteger(currentAge)
 
 const randomNumber = Math.random()
 const randomInteger = Math.floor(randomNumber)
-const randomUserID = Math.round(newID)
+const randomUserID = Number.isInteger(newID)
